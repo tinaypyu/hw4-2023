@@ -131,7 +131,6 @@ a:hover, a:focus{
 *:focus{ 
   border-width:2px; 
   border-style:solid; 
-  /* border-color:aquamarine;  */
 }
 
 /* Step 4: Write selector/rule property to style the container */
@@ -194,50 +193,31 @@ first div in the grid  and place it in the grid. */
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 
  .about{ 
-  /* display:flex; 
-  flex-direction: column;  */
+  
   grid-column:2/ span 1; 
   grid-row:2; 
-  /* margin:auto; 
-  text-align:center; 
-  text-align:center; 
-  align-items:center; 
-  justify-content:center;  */
+  
 }
 
 .method{
-  /* display:flex; 
-  flex-direction: column;  */
+ 
   grid-column:2/ span 1; 
   grid-row:3; 
-  /* margin:auto;
-  text-align:center; 
-  text-align:center; 
-  align-items:center; 
-  justify-content:center;   */
+ 
 }
 
 .clients{ 
-  /* display:flex; 
-  flex-direction: column;  */
+  
   grid-column:2/ span 1; 
   grid-row:4; 
-  /* margin:auto; 
-  text-align:center; 
-  text-align:center; 
-  align-items:center; 
-  justify-content:center;  */
+  
 }
 
 .contact{ 
-  /* display:flex; 
-  flex-direction: column;  */
+ 
   grid-column:2/span 1; 
   grid-row:5; 
-  /* margin:auto; 
-  text-align:center; 
-  align-items:center; 
-  justify-content:center;  */
+  
 }
 
 .text-block{ 
@@ -290,10 +270,7 @@ nav{
   overflow:auto; 
 }
 
-.text-block:focus{ 
-  outline:2px black solid; 
 
-}
 } 
 
  
